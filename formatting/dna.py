@@ -5,6 +5,7 @@ def text(x):
         if i not in numbers:
             list1.append(i)
 
-    print "".join(map(str, list1)),
+    seq = "".join(map(str, list1))
+    print seq.upper()
 
-text("""Replace this text with your DNA seq""")
+text("""Enter your GenBank-style sequence here to convert to Plain Text Format with no numbers or spaces""")
